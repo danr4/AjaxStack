@@ -42,13 +42,13 @@ _.jsonreport = (function(){
 
     $.each = function(arr, fn) { $each.call(arr, fn); };
 
-    var splitCase = function(t) { return typeof t != 'string' ? t : t.replace(/([A-Z]|[0-9]+)/g, ' $1'); },
+    var splitCase = function(t) { return typeof t != 'string' ? t : t.replace(/([A-Z]|[0-9]+)/g, ' $1').replace('_',' '); },
         uniqueKeys = function(m){ var h={}; for (var i=0,len=m.length; i<len; i++) for (var k in m[i]) h[k] = k; return h; },
         keys = function(o){ var a=[]; for (var k in o) a.push(k); return a; }
     var tbls = [];
 
     function val(m) {
-      if (typeof m == 'undefined') return '';
+      if (m == null) return '';
       if (typeof m == 'number') return num(m);
       if (typeof m == 'string') return str(m);
       return m.length ? arr(m) : obj(m);
