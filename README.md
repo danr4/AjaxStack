@@ -12,3 +12,6 @@ This aims to be a high quality collection of JavaScript or [CoffeeScript](http:/
 We hope to invite other contributors who love JavaScript and writing Ajax applications. 
 Feel free to extend, enhance or provide any other positive contribution you like to see here. 
 
+## Live demo of JSON Reports
+
+**[http://ajaxstack.com/jsonreport/](http://ajaxstack.com/jsonreport/)**
