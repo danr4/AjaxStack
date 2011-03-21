@@ -55,11 +55,11 @@ _.jsonreport = (function(){
     }
     function num(m) { return m; }
     function str(m) {
-      return m.substr(0,6) == '/Date(' ? dmft(date(m)) : m;
+      return m.substr(0,6) == '/Date(' ? dfmt(date(m)) : m;
     }
     function date(s) { return new Date(parseFloat(/Date\(([^)]+)\)/.exec(s)[1])); }
     function pad(d) { return d < 10 ? '0'+d : d; }
-    function dmft(d) { return d.getFullYear() + '/' + pad(d.getMonth() + 1) + '/' + pad(d.getDate()); }
+    function dfmt(d) { return d.getFullYear() + '/' + pad(d.getMonth() + 1) + '/' + pad(d.getDate()); }
     function obj(m) {
       var sb = '<dl>';
       for (var k in m) sb += '<dt class="ib">' + splitCase(k) + '</dt><dd>' + val(m[k]) + '</dd>';
