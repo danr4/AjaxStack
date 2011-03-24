@@ -22,8 +22,7 @@ While this project is starting up, we've bundled an elegant starting point usefu
 
 
   * [jqunback-1.51.js](https://github.com/AjaxStack/AjaxStack/raw/master/lib/jqunback-1.51.js) 
-    and [jqunback-1.51.min.js](https://github.com/AjaxStack/AjaxStack/raw/master/lib/jqunback-1.51.min.js) -  
-	jQuery.1.51, Underscore.js and Backbone.js in a single file.
+    and [jqunback-1.51.min.js](https://github.com/AjaxStack/AjaxStack/raw/master/lib/jqunback-1.51.min.js) - jQuery.1.51, Underscore.js and Backbone.js in a single file.
   
   * [zepunback-0.5.js](https://github.com/AjaxStack/AjaxStack/raw/master/lib/zepunback-0.5.js) 
     and [zepunback-0.5.min.js](https://github.com/AjaxStack/AjaxStack/raw/master/lib/zepunback-0.5.min.js) - 
