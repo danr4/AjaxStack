@@ -31,6 +31,13 @@ While this project is starting up, we've bundled an elegant starting point usefu
   * [jsonreports.js](https://github.com/AjaxStack/AjaxStack/raw/master/src/jsonreport/jsonreport.js) - Pretty Print JSON viewer in JavaScript
 
 
+### Help get Backbone.js get on a CDN
+
+Backbone.js is an awesome library embodying the beauty and elegance of JavaScript. We think having the merged starting bundles available on a CDN will help give it more reach and wider appeal and better able to have it included in online js tools like: http://jsbin.com and http://jsfiddle.com etc.
+
+If you want this as well [Vote for it on cdnjs.com feedback site](http://goo.gl/tJC7v)
+
+
 
 ### Contribute
 
