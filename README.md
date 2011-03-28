@@ -39,7 +39,7 @@ If you want this as well **[Vote for it on cdnjs.com feedback site](http://goo.g
 
 ## Seen in the wild
 
-  * [JsonReport GitHub project](https://github.com/gokulives/JsonReport) to embed jsonreport.js as a chrome extension - very useful!
+  * [JsonReport GitHub project](https://github.com/gokulives/JsonReport) that Pretty Prints JSON inside Chrome with a Chrome extension - Very useful!
 
 
 ### Contribute
