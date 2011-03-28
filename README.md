@@ -37,6 +37,9 @@ Backbone.js is an awesome library embodying the beauty and elegance of JavaScrip
 
 If you want this as well **[Vote for it on cdnjs.com feedback site](http://goo.gl/tJC7v)**
 
+## Seen in the wild
+
+  * [JsonReport GitHub project](https://github.com/gokulives/JsonReport) to embed jsonreport.js as a chrome extension - very useful!
 
 
 ### Contribute
