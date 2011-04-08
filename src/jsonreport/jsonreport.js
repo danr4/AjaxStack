@@ -126,7 +126,7 @@ _.jsonreport = (function(){
     }
 
     addEvent(doc, 'click', function (e) {
-        e = e || root.event, el = e.target || e.srcElement, cls = el.className;
+        var e = e || root.event, el = e.target || e.srcElement, cls = el.className;
         if (el.tagName == 'B') el = el.parentNode;
         if (el.tagName != 'TH') return;
         el.className = cls == 'asc' ? 'desc' : (cls == 'desc' ? null : 'asc');
