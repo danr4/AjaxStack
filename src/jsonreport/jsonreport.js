@@ -51,6 +51,7 @@ _.jsonreport = (function(){
       if (m == null) return '';
       if (typeof m == 'number') return num(m);
       if (typeof m == 'string') return str(m);
+      if (typeof m == 'boolean') return m ? 'true' : 'false';
       return m.length ? arr(m) : obj(m);
     }
     function num(m) { return m; }
